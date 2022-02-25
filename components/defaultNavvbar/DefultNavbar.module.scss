@@ -1,0 +1,74 @@
+.btnGroup {
+  //   backgroundColor: #32CCD0 !important ,
+  border-radius: 0;
+  height: 100%;
+}
+.btn {
+  width: 150px;
+  color: white !important;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  box-shadow: 0 0px 30px #131313;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-color: #0D1117;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.pic {
+  border-radius: 100%;
+  min-height: 85% !important;
+  max-height: 85% !important;
+  min-width: 85% !important;
+  max-width: 85% !important;
+}
+.logoText {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 10px;
+  font-family: Lato;
+}
+.hamburger {
+  display: none !important;
+}
+.tabbar {
+  background-color: rgba(163, 207, 223, 0.8);
+}
+
+@media only screen and (max-width: 900px) {
+  .logoText {
+    font-size: 20px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(5, 71, 105, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  .hamburger {
+    display: flex !important;
+  }
+  .btnGroup {
+    display: none !important;
+  }
+  .tabbar {
+    padding-top: 150px !important;
+}
+}

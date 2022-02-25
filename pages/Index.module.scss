@@ -1,0 +1,122 @@
+.root {
+  padding-top: 50px;
+}
+.Center {
+  display: flex;
+  justify-content: center;
+}
+.textHome {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: white !important;
+  font-size: 23px;
+}
+.box {
+  background-color: #0D1117;
+  height: auto;
+  width: 850px;
+  border-radius: 20px;
+  overflow: auto;
+  min-height: 100px;
+}
+.boxDev {
+  background-color: rgba(78, 78, 78, 0.9);
+  width: 950px;
+  border-radius: 20px;
+  // overflow:auto;
+}
+.copyright  {
+  color: white;
+}
+.cardOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #0D1117;
+  height: 200px;
+  border-radius: 20px;
+  width: 130px;
+  margin: 15px;
+}
+.cardOneMore4 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: space-evenly;
+  background-color: rgba(61, 101, 121, 0.9);
+  height: 200px;
+  border-radius: 20px;
+  min-width: 130px;
+  margin: 15px;
+}
+.cardAll {
+  display: flex;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+.cardAllMore5 {
+  display: flex;
+  overflow: auto;
+}
+.cardPic {
+  border-radius: 50px;
+  padding: 20px;
+}
+.textInfoDev {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discord {
+  background-color: rgb(111, 0, 255) !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  border-radius: 25px !important;
+  padding-top: 5px !important;
+  &:hover {
+    background-color: rgb(253, 253, 253) !important;
+  }
+}
+.nameDev {
+  display: flex;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  color: rgba(222, 224, 224, 1);
+}
+
+.CenterText {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width: 600px) {
+  .boxDev {
+    width: 100vw;
+    overflow: hidden !important;
+    // padding-left: 10px;
+  }
+  .cardAll {
+    overflow: auto;
+    justify-content: start;
+    
+  }
+  .box {
+    height: auto;
+    border-radius: 20px;
+    overflow: auto;
+    width: 90%;
+  }
+  .textHome {
+    padding-left:20px !important;
+    padding-right:20px !important;
+    padding-top:20 !important;
+    align-items: flex-start;
+   
+  }
+}

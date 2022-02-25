@@ -1,0 +1,46 @@
+{
+    "clubCommand": [
+        {
+            "cId": 1,
+            "cName": "ตั้งค่าเกี่ยวกับการตั้งชมรม",
+            "cInfo": "....infoSetClub.....",
+            "cCommand": "/set_club <@ยศที่จะตั้งเป็นชมรม> <@ผู้ใช้งานที่จะเป็นหัวหน้าชมรม>"
+        },
+        {
+            "cId": 2,
+            "cName": "ตั้งค่าเกี่ยวกับผู้ดูเเล",
+            "cInfo": "....infoSetManager.....",
+            "cCommand": "/set_manager <@ยศผู้ที่จะดูเเลชมรม> <@ยศหัวหน้าชมรม>"
+        },
+        {
+            "cId": 3,
+            "cName": "เพิ่มสามาชิกเข้าชมรม",
+            "cInfo": "....infoAddUSers.....",
+            "cCommand": "/club add <@สามาชิกที่จะดึงเข้าชมรม>"
+        },
+        {
+            "cId": 4,
+            "cName": "ลบคนออกจากชมรม",
+            "cInfo": "....infoRemoveUsers.....",
+            "cCommand": "/club remove <@สามาชิกที่ต้องการเอาออกจากชมรม>"
+        },
+        {
+            "cId": 5,
+            "cName": "ออกจากชมรม",
+            "cInfo": "....ออกจากชมรมด้วยตนเอง.....",
+            "cCommand": "/club leave"
+        },
+        {
+            "cId": 6,
+            "cName": "ดูชมรม",
+            "cInfo": "....ออกจากชมรมด้วยตนเอง.....",
+            "cCommand": "/club leave"
+        },
+        {
+            "cId": 7,
+            "cName": "ดูผู้ดูเเลชมรม",
+            "cInfo": "....ออกจากชมรมด้วยตนเอง.....",
+            "cCommand": "/club manager"
+        }
+    ]
+}
